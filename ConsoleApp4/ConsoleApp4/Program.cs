@@ -6,10 +6,22 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Sahe(10));
-            Console.WriteLine(Sahe(10,5));
-            Console.WriteLine(Sahe(10,5,7));
-            Console.WriteLine(Sahe(10,40));
+            double result = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(Sahe(result));
+
+            double result1= Convert.ToDouble(Console.ReadLine());
+            double result12 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(Sahe(result1));
+
+            double result21 = Convert.ToDouble(Console.ReadLine());
+            double result22 = Convert.ToDouble(Console.ReadLine());
+            double result23 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(Sahe(result21));
+
+            double result3 = Convert.ToDouble(Console.ReadLine());
+            double result31 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(Sahe(result3));
+
         }
         static double Sahe(double side1 )
         {           
