@@ -11,7 +11,7 @@ namespace ConsoleApp3
             Console.ReadLine();
         }
 
-        static object VowelLetter(string text = "bbbbbaaa" )
+        static int VowelLetter(string text = "aefeqfsdfvsd" )
         {
             
             int counter = 0;
