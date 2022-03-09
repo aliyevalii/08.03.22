@@ -6,8 +6,10 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Sahe(10,5,2)); 
-
+            Console.WriteLine(Sahe(10));
+            Console.WriteLine(Sahe(10,5));
+            Console.WriteLine(Sahe(10,5,7));
+            Console.WriteLine(Sahe(10,40));
         }
         static double Sahe(double side1 )
         {           
